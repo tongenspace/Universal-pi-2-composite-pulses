@@ -1,0 +1,22 @@
+{
+  "source": "UVH_CP_v2.pdf, Section IV C and Figure 3 caption, page 9",
+  "duration_ns": 16.0,
+  "anharmonicity_MHz": -250.0,
+  "envelope": "sin_squared",
+  "quadrature_convention": "Omega_Q(t) = beta_ns * dOmega_I(t)/dt; upper 01 coupling is (Omega_I + i*Omega_Q)*exp(i*phase)/2",
+  "detuning_convention": "Delta = omega_d - omega_01 = 2*pi*carrier_offset_MHz/1000 + detuning_ratio*Omega0",
+  "hamiltonian_convention": "H/hbar = -Delta*n + A*n*(n-1)/2 + (c*a + conjugate(c)*a_dagger)/2; c=(Omega_I+i*Omega_Q)*exp(i*phase)",
+  "convention_confirmed_for_manuscript": false,
+  "calibration_source": null,
+  "two_level": {
+    "kappa": null,
+    "carrier_offset_MHz": null,
+    "beta_ns": null
+  },
+  "three_level": {
+    "kappa": null,
+    "carrier_offset_MHz": null,
+    "beta_ns": null
+  },
+  "status": "incomplete: the manuscript does not report the six fixed calibration/DRAG values or the explicit DRAG Hamiltonian convention"
+}

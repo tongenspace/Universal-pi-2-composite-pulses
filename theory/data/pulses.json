@@ -1,0 +1,256 @@
+{
+  "source": {
+    "filename": "UVH_CP_v2.pdf",
+    "title": "Universal pi/2 composite pulses",
+    "authors": [
+      "Hristo G. Tonchev",
+      "Peter Chernev",
+      "Andon A. Rangelov",
+      "Nikolay V. Vitanov"
+    ],
+    "manuscript_date": "2026-09-24",
+    "sha256": "6660d05ab1387a8c0b1983315c0296e12bdbb24e1b9a33c3ad6827c7fc2a3168"
+  },
+  "convention": "Chronological phases in units of pi, stored as decimal strings to retain the printed precision.",
+  "sequences": {
+    "UVH1s": {
+      "pulse_count": 1,
+      "cancelled_order": 0,
+      "source": "Eq. (19)",
+      "page": 4,
+      "phases_pi": [
+        "0"
+      ]
+    },
+    "UVH5s": {
+      "pulse_count": 5,
+      "cancelled_order": 1,
+      "source": "Table V",
+      "page": 16,
+      "phases_pi": [
+        "0",
+        "0.765119989958877",
+        "0.891489269628071",
+        "0.765119989958877",
+        "0"
+      ]
+    },
+    "UVH7s": {
+      "pulse_count": 7,
+      "cancelled_order": 1,
+      "source": "Table V",
+      "page": 16,
+      "phases_pi": [
+        "0",
+        "0.195112482340514",
+        "1.851233096839070",
+        "1.259390971971335",
+        "1.851233096839070",
+        "0.195112482340514",
+        "0"
+      ]
+    },
+    "UVH9s": {
+      "pulse_count": 9,
+      "cancelled_order": 2,
+      "source": "Table V",
+      "page": 16,
+      "phases_pi": [
+        "0",
+        "0.022827539260996",
+        "0.940833388710696",
+        "0.919285042869124",
+        "0.445234904588416",
+        "0.919285042869124",
+        "0.940833388710696",
+        "0.022827539260996",
+        "0"
+      ]
+    },
+    "UVH11s": {
+      "pulse_count": 11,
+      "cancelled_order": 2,
+      "source": "Table V",
+      "page": 16,
+      "phases_pi": [
+        "0",
+        "0.199345564765312",
+        "1.870815547367088",
+        "0.335950533541797",
+        "1.439862618572666",
+        "1.279098002896504",
+        "1.439862618572666",
+        "0.335950533541797",
+        "1.870815547367088",
+        "0.199345564765312",
+        "0"
+      ]
+    },
+    "UVH13s": {
+      "pulse_count": 13,
+      "cancelled_order": 3,
+      "source": "Table V",
+      "page": 16,
+      "phases_pi": [
+        "0",
+        "0.272086548739399",
+        "0.375940902089311",
+        "1.315151114522817",
+        "1.227888830275671",
+        "0.734666999184366",
+        "0.813165416710539",
+        "0.734666999184366",
+        "1.227888830275671",
+        "1.315151114522817",
+        "0.375940902089311",
+        "0.272086548739399",
+        "0"
+      ]
+    },
+    "UVH4a": {
+      "pulse_count": 4,
+      "cancelled_order": 1,
+      "source": "Table VI",
+      "page": 17,
+      "phases_pi": [
+        "0",
+        "1.250000000000000",
+        "1.250000000000000",
+        "0"
+      ]
+    },
+    "UVH5a": {
+      "pulse_count": 5,
+      "cancelled_order": 1,
+      "source": "Table VI",
+      "page": 17,
+      "phases_pi": [
+        "0",
+        "1.599579866630352",
+        "1.849412641165699",
+        "1.581257949400845",
+        "0.981293579891819"
+      ]
+    },
+    "UVH6a": {
+      "pulse_count": 6,
+      "cancelled_order": 1,
+      "source": "Table VI",
+      "page": 17,
+      "phases_pi": [
+        "0",
+        "1.401771088971677",
+        "1.794865800930232",
+        "1.741834080764959",
+        "1.638255970297226",
+        "1.070399178936981"
+      ]
+    },
+    "UVH7a": {
+      "pulse_count": 7,
+      "cancelled_order": 2,
+      "source": "Table VI",
+      "page": 17,
+      "phases_pi": [
+        "0",
+        "1.014841916558260",
+        "0.808224545349413",
+        "0.806022135242466",
+        "1.453950972116318",
+        "1.329259793798321",
+        "0.309152141305943"
+      ]
+    },
+    "UVH8a": {
+      "pulse_count": 8,
+      "cancelled_order": 2,
+      "source": "Table VI",
+      "page": 17,
+      "phases_pi": [
+        "0",
+        "0.411666425857071",
+        "0.534466680547603",
+        "0.399721510580787",
+        "0.523532215325867",
+        "1.844635381701772",
+        "1.953232811698746",
+        "0.320203467224521"
+      ]
+    },
+    "UVH4d": {
+      "pulse_count": 4,
+      "cancelled_order": 1,
+      "source": "Table VII",
+      "page": 20,
+      "phases_pi": [
+        "0",
+        "1.043739065233692",
+        "1.043739065233692",
+        "0.587478130467384"
+      ],
+      "reported_disk_area_percent": 1.74
+    },
+    "UVH5d": {
+      "pulse_count": 5,
+      "cancelled_order": 1,
+      "source": "Table VII",
+      "page": 20,
+      "phases_pi": [
+        "0",
+        "1.907464355306758",
+        "1.206283793987254",
+        "1.589111864477368",
+        "0.502903998168623"
+      ],
+      "reported_disk_area_percent": 2.18
+    },
+    "UVH6d": {
+      "pulse_count": 6,
+      "cancelled_order": 1,
+      "source": "Table VII",
+      "page": 20,
+      "phases_pi": [
+        "0",
+        "1.378486246915163",
+        "1.787025715549882",
+        "1.723465901433954",
+        "1.636480420300683",
+        "1.057616795036141"
+      ],
+      "reported_disk_area_percent": 5.15
+    },
+    "UVH7d": {
+      "pulse_count": 7,
+      "cancelled_order": 2,
+      "source": "Table VII",
+      "page": 20,
+      "phases_pi": [
+        "0",
+        "1.014841916558260",
+        "0.808224545349413",
+        "0.806022135242465",
+        "1.453950972116317",
+        "1.329259793798319",
+        "0.309152141305940"
+      ],
+      "reported_disk_area_percent": 6.16
+    },
+    "UVH8d": {
+      "pulse_count": 8,
+      "cancelled_order": 2,
+      "source": "Table VII",
+      "page": 20,
+      "phases_pi": [
+        "0",
+        "0.396841838318339",
+        "0.500918934210419",
+        "0.352571246153587",
+        "0.456706863254206",
+        "1.762601732102059",
+        "1.854002437234120",
+        "0.204559832770637"
+      ],
+      "reported_disk_area_percent": 16.77
+    }
+  }
+}

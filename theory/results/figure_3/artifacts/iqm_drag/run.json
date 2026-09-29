@@ -1,0 +1,254 @@
+{
+  "model": {
+    "duration_ns": 16.0,
+    "duration": 3.141592653589793,
+    "anharmonicity": -8.0,
+    "i_coefficient": 0.2,
+    "q_coefficient": -0.042,
+    "q_over_i": -0.21,
+    "drag": 1.68,
+    "levels": [
+      2,
+      5
+    ],
+    "nominal_levels": [
+      2,
+      3,
+      5
+    ]
+  },
+  "grid": 401,
+  "plot_grid": 2401,
+  "batch_size": 256,
+  "rtol": 2e-11,
+  "atol": 2e-13,
+  "sequence_names": [
+    "UVH1s",
+    "UVH5s",
+    "UVH9s",
+    "UVH13s"
+  ],
+  "plot_names": [
+    "UVH1s",
+    "UVH5s",
+    "UVH9s",
+    "UVH13s"
+  ],
+  "phases_rad": {
+    "UVH1s": [
+      0.0
+    ],
+    "UVH5s": [
+      0.0,
+      2.4036953395695386,
+      2.800696140217786,
+      2.4036953395695386,
+      0.0
+    ],
+    "UVH9s": [
+      0.0,
+      0.07171482964187637,
+      2.9557152622255125,
+      2.888019137232617,
+      1.3987467053767204,
+      2.888019137232617,
+      2.9557152622255125,
+      0.07171482964187637,
+      0.0
+    ],
+    "UVH13s": [
+      0.0,
+      0.8547851026602972,
+      1.1810531761877006,
+      4.131669079745312,
+      3.857526528619011,
+      2.3080244474724627,
+      2.554634499291114,
+      2.3080244474724627,
+      3.857526528619011,
+      4.131669079745312,
+      1.1810531761877006,
+      0.8547851026602972,
+      0.0
+    ]
+  },
+  "calibrations": {
+    "2": {
+      "gain": 0.9960007359676135,
+      "offset": -0.0881833822147416
+    },
+    "3": {
+      "gain": 0.9954003427720576,
+      "offset": -0.06166625260412525
+    },
+    "5": {
+      "gain": 0.9954071031020141,
+      "offset": -0.06159254919820353
+    }
+  },
+  "sweep_checks": {
+    "2": {
+      "seconds": 17.80538749997504,
+      "max_unitarity_defect": 1.2014833572663256e-12,
+      "max_norm_defect": 1.5158541089022037e-11
+    },
+    "5": {
+      "seconds": 1050.200349300052,
+      "max_unitarity_defect": 2.2382651287955468e-10,
+      "max_norm_defect": 5.906386491005833e-14
+    }
+  },
+  "accuracy_checks": {
+    "2": {
+      "max_propagator_change": 2.6467121651547855e-12,
+      "max_state_change": 1.742814434850521e-11,
+      "max_population_change": 2.8703150967146485e-12,
+      "max_single_point_change": 2.7155108616735582e-12,
+      "max_phase_covariance_error": 9.155133597044475e-16,
+      "interpolation_error_by_sequence": {
+        "UVH1s": 1.5210749326755035e-12,
+        "UVH5s": 5.0179554955676053e-11,
+        "UVH9s": 1.2460644321921066e-10,
+        "UVH13s": 1.7990001502377062e-10
+      }
+    },
+    "5": {
+      "max_propagator_change": 8.876024793849636e-10,
+      "max_state_change": 2.152895355469438e-14,
+      "max_population_change": 3.0309088572266774e-14,
+      "max_single_point_change": 8.938310898756987e-10,
+      "max_phase_covariance_error": 1.8906416838689214e-15,
+      "interpolation_error_by_sequence": {
+        "UVH1s": 7.369105325949477e-15,
+        "UVH5s": 5.188519058840768e-11,
+        "UVH9s": 1.8162507608998624e-10,
+        "UVH13s": 1.624877940531455e-10
+      }
+    }
+  },
+  "nominal_results": [
+    {
+      "levels": 2,
+      "sequence": "UVH1s",
+      "P1": 0.5000000000000232,
+      "population_error": 2.3203661214665772e-14,
+      "leakage": 0.0,
+      "state_fidelity": 1.0000000000000981
+    },
+    {
+      "levels": 2,
+      "sequence": "UVH5s",
+      "P1": 0.5000000000001902,
+      "population_error": 1.9018120411828932e-13,
+      "leakage": 0.0,
+      "state_fidelity": 1.0000000000004885
+    },
+    {
+      "levels": 2,
+      "sequence": "UVH9s",
+      "P1": 0.5000000000004357,
+      "population_error": 4.3565151486291143e-13,
+      "leakage": 0.0,
+      "state_fidelity": 1.000000000000865
+    },
+    {
+      "levels": 2,
+      "sequence": "UVH13s",
+      "P1": 0.5000000000006292,
+      "population_error": 6.291633880550762e-13,
+      "leakage": 0.0,
+      "state_fidelity": 1.0000000000012497
+    },
+    {
+      "levels": 3,
+      "sequence": "UVH1s",
+      "P1": 0.5000000000000006,
+      "population_error": 5.551115123125783e-16,
+      "leakage": 2.0318045382390203e-06,
+      "state_fidelity": 0.9999979681943583
+    },
+    {
+      "levels": 3,
+      "sequence": "UVH5s",
+      "P1": 0.49999910309952134,
+      "population_error": 8.969004786640866e-07,
+      "leakage": 2.1262813426119604e-05,
+      "state_fidelity": 0.999978737069598
+    },
+    {
+      "levels": 3,
+      "sequence": "UVH9s",
+      "P1": 0.4999752657901262,
+      "population_error": 2.4734209873811253e-05,
+      "leakage": 3.97680260086305e-05,
+      "state_fidelity": 0.9999602317979612
+    },
+    {
+      "levels": 3,
+      "sequence": "UVH13s",
+      "P1": 0.49998156743047106,
+      "population_error": 1.8432569528936682e-05,
+      "leakage": 2.0231141517273462e-05,
+      "state_fidelity": 0.999979768778037
+    },
+    {
+      "levels": 5,
+      "sequence": "UVH1s",
+      "P1": 0.5000000000000003,
+      "population_error": 3.3306690738754696e-16,
+      "leakage": 2.012700696076839e-06,
+      "state_fidelity": 0.9999979872981757
+    },
+    {
+      "levels": 5,
+      "sequence": "UVH5s",
+      "P1": 0.4999991102152643,
+      "population_error": 8.897847357247635e-07,
+      "leakage": 2.015733627485566e-05,
+      "state_fidelity": 0.9999798425485901
+    },
+    {
+      "levels": 5,
+      "sequence": "UVH9s",
+      "P1": 0.4999716972292011,
+      "population_error": 2.8302770798904753e-05,
+      "leakage": 3.8477524182111716e-05,
+      "state_fidelity": 0.999961522272343
+    },
+    {
+      "levels": 5,
+      "sequence": "UVH13s",
+      "P1": 0.4999829125407685,
+      "population_error": 1.708745923151289e-05,
+      "leakage": 1.82637870079851e-05,
+      "state_fidelity": 0.999981736141812
+    }
+  ],
+  "nominal_checks": {
+    "2": {
+      "max_population_change": 4.936051567483446e-13,
+      "max_norm_defect": 1.2516654379624015e-12,
+      "calibration_residual": 4.278521981148549e-14,
+      "max_phase_covariance_error": 9.155133597044475e-16
+    },
+    "3": {
+      "max_population_change": 1.1102230246251565e-15,
+      "max_norm_defect": 3.9968028886505635e-15,
+      "calibration_residual": 6.661338147750939e-16,
+      "max_phase_covariance_error": 1.2008898127460164e-15
+    },
+    "5": {
+      "max_population_change": 5.9396931817445875e-15,
+      "max_norm_defect": 6.772360450213455e-15,
+      "calibration_residual": 3.3306690738754696e-16,
+      "max_phase_covariance_error": 1.8906416838689214e-15
+    }
+  },
+  "state_fidelity_definition": "Squared overlap with the same phase sequence of ideal Rx(pi/2) pulses acting on |0>; no renormalization",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  }
+}

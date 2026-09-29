@@ -1,0 +1,5 @@
+# Preserve the exact bytes used by the SHA-256 checks in the notebooks and scripts.
+experiment/data/raw/iqm_jobs/** -text
+calibration/source/** -text
+calibration/data/garnet_single_qubit.json -text
+calibration/data/garnet_single_qubit.csv -text
