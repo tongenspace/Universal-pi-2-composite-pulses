@@ -9,7 +9,7 @@ environments remain reproducible.
 | Section | Contents | Main entry point |
 |---|---|---|
 | [`experiment/`](experiment/) | Twelve archived IQM jobs, per-qubit and ensemble data, validation panels A–D | [`02_process_validate_iqm_data_publication.ipynb`](experiment/02_process_validate_iqm_data_publication.ipynb) |
-| [`theory/`](theory/) | Fixed phase lists, square-pulse checks for Figures 1–2, and finite-level cosine-DRAG simulation for Figure 3 | [`scripts/execute_notebooks.py`](theory/scripts/execute_notebooks.py) |
+| [`theory/`](theory/) | Fixed phase lists, square-pulse checks for Figures 1–2, and finite-level DRAG simulation for Figure 3 | [`scripts/execute_notebooks.py`](theory/scripts/execute_notebooks.py) |
 | [`calibration/`](calibration/) | Two historical Garnet quality-metric JSON files and selected single-qubit plots | [`garnet_single_qubit_calibration.ipynb`](calibration/garnet_single_qubit_calibration.ipynb) |
 
 Use Python 3.12 for the pinned package versions. Each section can be run in its
@@ -36,7 +36,7 @@ python -m pytest -q theory/tests
 python theory/scripts/execute_notebooks.py
 ```
 
-The theory runner executes the fixed square-pulse and cosine-DRAG notebooks in
+The theory runner executes the fixed square-pulse and DRAG notebooks in
 fresh kernels. Figures 1–2 are written under `theory/results/figures_1_2/`;
 Figure 3 is written under `theory/results/figure_3/`. The Figure 3 calculation
 may take around 20 minutes on a desktop CPU. The notebooks retain their source
