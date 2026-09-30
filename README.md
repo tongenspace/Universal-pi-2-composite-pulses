@@ -77,3 +77,8 @@ by themselves assign a calibration to a particular job.
 The archived sweep data make the experimental analysis reproducible without
 running new quantum jobs. Repeating the experiment on live hardware would be a
 different activity and is not part of these reproduction commands.
+
+## Citation
+
+Citation metadata for this repository release are provided in
+[`CITATION.cff`](CITATION.cff).
