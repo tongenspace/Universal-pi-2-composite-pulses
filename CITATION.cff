@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: >-
+  If you use the code or data in this repository, please cite this release.
+type: software
+title: "Universal π/2 composite pulses: code and data"
+authors:
+  - family-names: Tonchev
+    given-names: Hristo G.
+  - family-names: Chernev
+    given-names: Peter
+  - family-names: Rangelov
+    given-names: Andon A.
+  - family-names: Vitanov
+    given-names: Nikolay V.
+version: 1.0.0
+date-released: 2026-09-30
+url: "https://github.com/tongenspace/Universal-pi-2-composite-pulses"
