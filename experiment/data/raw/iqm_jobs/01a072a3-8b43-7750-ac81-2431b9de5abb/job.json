@@ -1,0 +1,65 @@
+{
+  "id": "01a072a3-8b43-7750-ac81-2431b9de5abb",
+  "status": "completed",
+  "execution": {
+    "progress": {}
+  },
+  "compilation": {
+    "calibration_set_id": null
+  },
+  "messages": [],
+  "errors": [],
+  "queue_position": null,
+  "timeline": [
+    {
+      "source": "iqm-server",
+      "status": "created",
+      "timestamp": "2026-09-05T17:35:15.790647+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "received",
+      "timestamp": "2026-09-05T17:35:16.251643+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "validation_started",
+      "timestamp": "2026-09-05T17:35:16.276947+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "validation_ended",
+      "timestamp": "2026-09-05T17:35:17.230006+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "execution_started",
+      "timestamp": "2026-09-05T17:35:18.850469+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "execution_ended",
+      "timestamp": "2026-09-05T17:36:17.389376+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "post_processing_started",
+      "timestamp": "2026-09-05T17:36:17.409339+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "post_processing_ended",
+      "timestamp": "2026-09-05T17:36:18.092326+00:00"
+    },
+    {
+      "source": "iqm-station-control",
+      "status": "ready",
+      "timestamp": "2026-09-05T17:36:18.106450+00:00"
+    },
+    {
+      "source": "iqm-server",
+      "status": "completed",
+      "timestamp": "2026-09-05T17:36:18.431529+00:00"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "01a0a596-3bc5-7d41-975d-df578aa622f5",
+  "family": "s",
+  "panel": "B",
+  "description": "Amplitude sweep, Delta = 2.5 MHz",
+  "quantum_computer": "garnet",
+  "chip_label_at_recovery": "M194_F0W2114_P08_B15",
+  "recovered_at_utc": "2026-09-24T12:17:40.154195+00:00",
+  "result_parameters": [
+    "QB18__c_20_0_6",
+    "QB13__c_20_0_14",
+    "QB1__c_20_0_4",
+    "QB15__c_20_0_5",
+    "QB17__c_20_0_15",
+    "QB8__c_20_0_17",
+    "QB7__c_20_0_18",
+    "QB4__c_20_0_8",
+    "QB20__c_20_0_13",
+    "QB10__c_20_0_1",
+    "QB9__c_20_0_3",
+    "QB16__c_20_0_7",
+    "QB2__c_20_0_10",
+    "QB19__c_20_0_11",
+    "QB3__c_20_0_16",
+    "QB5__c_20_0_0",
+    "QB11__c_20_0_2",
+    "QB12__c_20_0_19",
+    "QB6__c_20_0_12",
+    "QB14__c_20_0_9"
+  ]
+}

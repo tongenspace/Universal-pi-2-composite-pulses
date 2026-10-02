@@ -1,0 +1,13 @@
+job_id,panel,n_qubits,n_circuits,n_sweep,shots,storage
+01a0a57b-b833-7df0-849c-915f92f8545b,A,20,6,31,1024,embedded_sweep
+01a0a57d-16d2-7f11-b33e-adf02b8d55fd,B,20,6,31,1024,embedded_sweep
+01a0a57e-4c4f-7f82-af6d-66730fad5648,C,20,6,41,1024,split_sweep
+01a0a57f-e612-73a0-a4c0-523ced5dc57c,D,20,6,41,1024,split_sweep
+01a072a2-2420-7832-9e14-2cdcc10719b2,A,20,6,31,1024,embedded_sweep
+01a072a3-8b43-7750-ac81-2431b9de5abb,B,20,6,31,1024,embedded_sweep
+01a072a4-ca2f-7a62-a49e-a7eeaa1b8e17,C,20,6,41,1024,split_sweep
+01a072a6-658d-79f3-bff1-2e7fd0670b76,D,20,6,41,1024,split_sweep
+01a0a594-d17f-7f32-a6dc-5cd1766b125b,A,20,6,31,1024,embedded_sweep
+01a0a596-3bc5-7d41-975d-df578aa622f5,B,20,6,31,1024,embedded_sweep
+01a0a597-81f1-7011-9024-b8d544cd9dd8,C,20,6,41,1024,split_sweep
+01a0a58f-fa8c-7373-bce5-caabe51dbde0,D,20,6,41,1024,split_sweep
