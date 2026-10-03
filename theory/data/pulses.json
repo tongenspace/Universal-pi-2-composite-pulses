@@ -30,11 +30,6 @@
         "sha256": "6660d05ab1387a8c0b1983315c0296e12bdbb24e1b9a33c3ad6827c7fc2a3168"
       }
     },
-    "preserved_phase_corrections": [
-      "UVH3a",
-      "UVH5d",
-      "UVH8d"
-    ],
     "coverage": "All named UVH sequences in Tables V-VII, plus the UVH1s single-pulse reference.",
     "disk_area_definition": {
       "radius": 0.2,
