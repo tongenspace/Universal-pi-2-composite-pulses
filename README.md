@@ -9,7 +9,7 @@ environments remain reproducible.
 | Section | Contents | Main entry point |
 |---|---|---|
 | [`experiment/`](experiment/) | Twelve archived IQM jobs, per-qubit and ensemble data, validation panels A–D | [`02_process_validate_iqm_data_publication.ipynb`](experiment/02_process_validate_iqm_data_publication.ipynb) |
-| [`theory/`](theory/) | Fixed phase lists, square-pulse checks for Figures 1–2, and finite-level DRAG simulation for Figure 3 | [`scripts/execute_notebooks.py`](theory/scripts/execute_notebooks.py) |
+| [`theory/`](theory/) | Fixed phase lists, square-pulse checks for Figures 1–2, and finite-level DRAG simulation for Figure 3 | [`notebooks`](theory/notebooks) |
 | [`calibration/`](calibration/) | Two historical Garnet quality-metric JSON files and selected single-qubit plots | [`garnet_single_qubit_calibration.ipynb`](calibration/garnet_single_qubit_calibration.ipynb) |
 
 Use Python 3.12 for the pinned package versions. Each section can be run in its
